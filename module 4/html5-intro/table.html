@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html table</title>
+    <style>
+        table{
+            border-collapse: collapse;
+
+        }
+        td,th{
+            border:solid 1px black;
+            padding: 3px 5px;
+        }
+
+    </style>
+    <link rel="stylesheet" href="/style/nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+             <ul>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="/blog.html">Blog</a></li>
+                <li>
+                    <a href="/form.html">Form</a>
+                <ul class="dropdown">
+                <li><a href="video.html">Video</a></li>
+                <li><a href="/blog.html">Blog</a></li>
+                <li><a href="/form.html">Form</a></li>
+                <li><a href="/table.html">Table</a></li>
+             </ul></li>
+                
+                <li><a href="/table.html">Table</a></li>
+             </ul>
+        </nav>
+    </header>
+    
+   <main>
+     <h1>My First Table</h1>
+    <table>
+        <caption>Employee Information</caption>
+        <thead>
+            <th>Cell Number</th>
+            <th>Name</th>
+            <th>Company</th>
+            <th>Salary</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Cell 1</td>
+                <td>Bill gates</td>
+                <td>Microsoft</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>Cell 2</td>
+                <td>Steve Jobs</td>
+                <td>Apple</td>
+                <td>$1500</td>
+            </tr>
+            <tr>
+                <td>Cell 3</td>
+                <td>Elon Musk</td>
+                <td>Tesla</td>
+                <td>$2000</td>
+            </tr>
+            <tr>
+                <td>Cell 4</td>
+                <td>Mark Zuckerberg</td>
+                <td>Facebook</td>
+                <td>$1800</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Total employees: 4</td>
+            </tr>
+        </tfoot>
+    </table>
+    <ul>
+        <li>table:table</li>
+        <li>thead:table head</li>
+        <li>tbody:table body</li>
+        <li>tfoot:table foot</li>
+        <li>tr:table row</li>
+        <li>td:table data</li>
+        <li>th:table header data</li>
+        <li>caption tag use</li>
+        <li>colspan attribute use
+        </li>
+    </ul>
+   </main>
+
+</body>
+</html>

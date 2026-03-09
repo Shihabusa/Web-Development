@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jamal er Ma er pitha ghor</title>
+   <style>
+     label{
+        display : block;
+        margin-bottom : 10px;
+        
+    }
+   </style>
+   <link rel="stylesheet" href="/style/nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+             <ul>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="/blog.html">Blog</a></li>
+                <li><a href="/form.html">Form</a></li>
+                <li><a href="/table.html">Table</a></li>
+             </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Please fill out the form below:</h2>
+            <form> 
+                <label for="Name">Your name:
+                    <input type="text" name="Your name" id="Name" placeholder="name">
+                </label>
+                <label for="Email">Your email:
+                    <input type="email" name="Your email" id="Email" placeholder="email">
+                </label>
+                <label for="Password">
+                    Your password:
+                    <input type="password" name="Password" id="Password" placeholder="password">
+                </label>
+                <fieldset>
+                    <legend>Choose your one favorite pitha:</legend>
+                     <label for="vapa">
+                        <input type="radio" name="pitha" id="vapa">vapa pitha
+                     </label>
+                     <label for="chitoi">
+                        <input type="radio" name="pitha" id="chitoi">
+                        chitoi pitha
+                     </label>
+                     <label for="puli">
+                        <input type="radio" name="pitha" id="puli">
+                        puli pitha
+                     </label>
+                </fieldset>
+                <fieldset>
+                    <legend>choose your favourite vorta</legend>
+                    <label for="sorisa">
+                        <input type="checkbox" name="" id="sorisa">sorisa vorta
+                    </label>
+                    <label for="morich">
+                        <input type="checkbox" name="" id="morich">morich vorta
+                    </label>
+                    <label for="sutki">
+                        <input type="checkbox" name="" id="sutki">sutki vorta
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Special Instructions</legend>
+                    <textarea name="special_instructions" id="special_instructions" cols="50"rows="5"></textarea>
+                </fieldset>
+                <fieldset>
+                    <button type="reset">Reset Form</button>
+                    <button type="submit">Submit Form</button>
+                    
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

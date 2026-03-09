@@ -1,0 +1,28 @@
+h2{
+    font-size: 20px;
+    text-decoration: overline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.blog{
+    border: 20px solid purple;
+    margin: 20px;
+    box-shadow: 10px 20px 20px ;<shaddow effect>
+
+}
+.sec{
+    /* display:  none;hide this class content */
+    /* visibility: hidden;<oi portion ta hide kora jabe + faka dekhabe purata > */
+}
+.inc{
+    border: 10px solid orange;
+    display: block;
+}
+.header{
+    height:300px;
+    background-image: url('../494677217_122145037826611460_1209380387684241427_n.jpg');
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    background-size: 500px;
+    /* background-size: contain; */
+    
+}

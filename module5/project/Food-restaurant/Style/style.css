@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Roboto", sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#hero{
+    background-color: tomato;
+    background-image: url(/assets/hero-bg.png);
+    background: linear-gradient(0deg,
+    rgb(16,16,16)-19%, rgba(16,16,16,0.8) 100%), url(/assets/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 919px;
+    width: 1920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+#hero .content{
+    height: 391px;
+    width: 1023px;
+}
+#hero .content .sub{
+    font-size: 32px;
+    color:white;
+    font-family: work sans;
+    font-weight: 600;
+    line-height: 0%;
+    text-align: center;
+    opacity: 0.8;
+    
+}
+#hero .content .head{
+    color: white;
+    font-family: work sans;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 100%;
+    text-align: center;
+    margin: 24px;
+}
+#hero .content .Descrip{
+    color: white;
+    font-family: work sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    margin: 24px;
+    opacity: 0.8;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    padding: 14px 18px;
+    color: white;
+    background-color: rgb(161, 189, 120);
+    font-family: work sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
